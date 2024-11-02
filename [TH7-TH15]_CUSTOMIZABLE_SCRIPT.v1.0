@@ -1,0 +1,162 @@
+NOTE  |[TH7-TH15]_CUSTOMIZABLE_SCRIPT.v1.0
+NOTE  |Author:f4gn3r@duck.com a game addict - started Project 31/10/2024
+NOTE  |GitHub: https://github.com/f4gn3r0ck
+NOTE  |[TH7-TH15]: customizable number of each troops and spells by TH level
+NOTE  |Trops: 9 Electrodragons, 2 Balloons [upgrading camps to max, can change value in TRAIN section
+NOTE  |Spells: 4 Rage, 1 Clone [Max=11] - upgrade spells to max is a good idea 
+NOTE  |Script work on IMGLOC RAW REDLINE (DEFAULT)
+NOTE  |Script tested Mybot.run version 8.1.7 - Bluestacks 5.13.220.1002
+      |--------------------------------------------TRAINING SECTOR - PUT TROOPS NAMES AND QUANTITY----------------------------------------------------|
+      |_TROOPNAME_|__FLEXIBLE_|____TH06___|____TH07___|____TH08___|____TH09___|____TH10___|____TH11___|____TH12___|____TH13___|____TH14___|____TH15___|
+TRAIN |EDrag      |0          |0          |0          |0          |0          |0          |0          |0          |9          |0          |0          |
+TRAIN |Ball       |0          |0          |0          |0          |0          |0          |0          |0          |2          |0          |0          |
+TRAIN |King       |0          |0          |0          |0          |0          |0          |0          |0          |1          |0          |0          |
+TRAIN |Queen      |0          |0          |0          |0          |0          |0          |0          |0          |1          |0          |0          |
+TRAIN |Warden     |0          |0          |0          |0          |0          |0          |0          |0          |1          |0          |0          |
+TRAIN |Champion   |0          |0          |0          |0          |0          |0          |0          |0          |1          |0          |0          |
+TRAIN |RSpell     |0          |0          |0          |0          |0          |0          |0          |0          |4          |0          |0          |
+TRAIN |CSpell     |0          |0          |0          |0          |0          |0          |0          |0          |1          |0          |0          |
+TRAIN |LSpell     |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |
+TRAIN |HSpell     |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |
+TRAIN |RSpell     |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |
+TRAIN |JSpell     |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |
+TRAIN |FSpell     |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |
+TRAIN |PSpell     |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |
+TRAIN |ESpell     |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |
+TRAIN |HaSpell    |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |
+TRAIN |CkSpell    |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |
+TRAIN |BtSpell    |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |
+TRAIN |ISpell     |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |
+TRAIN |ReSpell    |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |
+TRAIN |Barb       |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |
+TRAIN |Arch       |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |
+TRAIN |Giant      |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |
+TRAIN |Gobl       |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |
+TRAIN |Wall       |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |
+TRAIN |Wiza       |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |
+TRAIN |Heal       |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |
+TRAIN |Drag       |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |
+TRAIN |Pekk       |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |
+TRAIN |BabyD      |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |
+TRAIN |Mine       |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |
+TRAIN |Mini       |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |
+TRAIN |Hogs       |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |
+TRAIN |Valk       |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |
+TRAIN |Hunt       |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |
+TRAIN |Lava       |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |
+TRAIN |Bowl       |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |
+TRAIN |IceG       |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |
+TRAIN |Yeti       |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |
+TRAIN |RDrag      |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |
+TRAIN |ETitan     |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |
+TRAIN |RootR      |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |
+TRAIN |SBarb      |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |
+TRAIN |SArch      |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |
+TRAIN |SGiant     |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |
+TRAIN |SGobl      |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |
+TRAIN |SWall      |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |
+TRAIN |SWiza      |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |
+TRAIN |InfernoD   |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |
+TRAIN |SMini      |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |
+TRAIN |SValk      |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |
+TRAIN |Switc      |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |
+TRAIN |IceH       |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |
+TRAIN |RBall      |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |
+TRAIN |SBowl      |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |
+TRAIN |SMine      |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |
+TRAIN |Castle     |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |
+TRAIN |WallW      |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |
+TRAIN |BattleB    |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |
+TRAIN |StoneS     |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |
+TRAIN |SiegeB     |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |
+TRAIN |LogL       |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |
+TRAIN |FlameF     |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |
+TRAIN |BattleD    |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |0          |
+      |--------------------------------------------RED LINE CONFIG------------------------------------------------------------------------------------|
+REDLN |0          |0          |0          |0          |0          |0          |0          |0          |0          |1          |0	  |0          |
+DRPLN |0          |0          |0          |0          |0          |0          |0          |0          |0          |1          |0	  |0	      |
+WMODE |0	  |0          |0          |0          |0          |0          |0          |0          |0          |2          |0          |0          |
+      |--------------------------------------------ATTACK LOCATION NEAR BY WEIGHT---------------------------------------------------------------------|
+      |EXTR. GOLD |EXTR.ELIXIR|EXTR. DARK |DEPO. GOLD |DEPO.ELIXIR|DEPO. DARK |TOWNHALL   |FORCED SIDE|___________|___________|___________|___________|
+SIDE  |50         |50         |0          |100        |100        |0          |0          |           |           |           |           |           |
+      |EAGLE      |INFERNO    |XBOW       |WIZTOWER   |MORTAR     |AIRDEFENSE |GEMBOX     |GEMBOX     |GEMBOX     |GEMBOX     |GEMBOX     |GEMBOX     |
+SIDEB |1          |0          |           |0          |0          |0          |0          |           |           |           |           |           |
+      |--------------------------------------------ATTACK REGIONS-------------------------------------------------------------------------------------|
+      |VECTOR_____|SIDE_______|DROP_POINTS|ADDTILES___|VERSUS_____|RANDOMX_PX_|RANDOMY_PX_|BUILDING___|___________|___________|___________|___________|
+MAKE  |H          |FRONT-LEFT |1          |1          |EXT-INT    |0          |0          |           |           |           |           |           |
+MAKE  |G          |FRONT-LEFT |1          |-5         |EXT-INT    |0          |0          |           |           |           |           |           |
+MAKE  |F          |FRONT-LEFT |1          |-10        |EXT-INT    |0          |0          |           |           |           |           |           |
+MAKE  |K          |FRONT-RIGHT|1          |1          |INT-EXT    |0          |0          |           |           |           |           |           |
+MAKE  |O          |FRONT-RIGHT|1          |-5         |INT-EXT    |0          |0          |           |           |           |           |           |
+MAKE  |P          |FRONT-RIGHT|1          |-10        |INT-EXT    |0          |0          |           |           |           |           |           |
+MAKE  |E          |LEFT-BACK  |1          |1          |EXT-INT    |0          |0          |           |           |           |           |           |
+MAKE  |A          |LEFT-BACK  |1          |-5         |EXT-INT    |0          |0          |           |           |           |           |           |
+MAKE  |B          |LEFT-BACK  |1          |-10        |EXT-INT    |0          |0          |           |           |           |           |           |
+MAKE  |D          |LEFT-BACK  |200        |1          |EXT-INT    |0          |0          |           |           |           |           |           |
+MAKE  |I          |BACK-LEFT  |1          |1          |EXT-INT    |0          |0          |           |           |           |           |           |
+MAKE  |Q          |BACK-LEFT  |1          |-5         |EXT-INT    |0          |0          |           |           |           |           |           |
+MAKE  |R          |BACK-LEFT  |1          |-10        |EXT-INT    |0          |0          |           |           |           |           |           |
+MAKE  |J          |BACK-RIGHT |1          |1          |EXT-INT    |0          |0          |           |           |           |           |           |
+MAKE  |T          |BACK-RIGHT |1          |-5         |EXT-INT    |0          |0          |           |           |           |           |           |
+MAKE  |U          |BACK-RIGHT |1          |-10        |EXT-INT    |0          |0          |           |           |           |           |           |
+MAKE  |L          |LEFT-FRONT |1          |-1         |EXT-INT    |0          |0          |           |           |           |           |           |
+MAKE  |Z          |LEFT-FRONT |1          |-5         |EXT-INT    |0          |0          |           |           |           |           |           |
+MAKE  |N          |LEFT-FRONT |1          |-10        |EXT-INT    |0          |0          |           |           |           |           |           |
+MAKE  |S          |RIGHT-FRONT|1          |1          |EXT-INT    |0          |0          |           |           |           |           |           |
+MAKE  |T          |RIGHT-FRONT|1          |-5         |EXT-INT    |0          |0          |           |           |           |           |           |
+MAKE  |U          |RIGHT-FRONT|1          |-10        |EXT-INT    |0          |0          |           |           |           |           |           |
+MAKE  |M          |RIGHT-BACK |1          |-55        |EXT-INT    |0          |0          |           |           |           |           |           |
+MAKE  |V          |LEFT-FRONT |1          |-55        |EXT-INT    |0          |0          |           |           |           |           |           |
+MAKE  |X          |BACK-LEFT  |1          |-55        |EXT-INT    |0          |0          |           |           |           |           |           |
+MAKE  |C          |FRONT-RIGHT|1          |-55        |EXT-INT    |0          |0          |           |           |           |           |           |        
+MAKE  |Y          |FRONT-LEFT |1          |-55        |EXT-INT    |0          |0          |           |           |           |           |           |           
+      |-----------------------------------ATTACK ORDER STRATEGY---------------------------------------------------------------------------------------|
+      |----------------------------------------------------------FIRST WAVE - ONE SIDE----------------------------------------------------------------|
+      |VECTOR_____|INDEX______|QTY_X_VECT_|TROOPNAME__|DELAY_DROP_|DELAYCHANGE|SLEEPAFTER_|___________|___________|___________|___________|___________|
+DROP  |H          |1          |1          |EDrag      |200-300    |0          |0          |           |           |           |           |           |
+DROP  |H          |1          |1          |EDrag      |200-300    |0          |0          |           |           |           |           |           |
+DROP  |H          |1          |1          |EDrag      |200-300    |0          |0          |           |           |           |           |           |
+DROP  |H          |1          |1          |EDrag      |200-300    |0          |0          |           |           |           |           |           |
+DROP  |H          |1          |1          |Ball       |200-300    |0          |0          |           |           |           |           |           |
+DROP  |H          |1          |1          |Ball       |200-300    |0          |0          |           |           |           |           |           |
+DROP  |H          |100-200    |100-200    |Castle     |100        |0          |0          |           |           |           |           |           |
+DROP  |G          |1          |1          |CSpell     |200-300    |0          |0          |           |           |           |           |           |
+DROP  |G          |1          |1          |RSpell     |200-300    |0          |600        |           |           |           |           |           |
+DROP  |F          |1          |1          |RSpell     |200-300    |0          |0          |           |           |           |           |           |
+DROP  |H          |1          |1          |Warden     |0          |0          |0          |           |           |           |           |           |
+DROP  |H          |1          |1          |King       |0          |0          |0          |           |           |           |           |           |
+      |--------------------------------------------SECOND WAVE - OTHER SIDE---------------------------------------------------------------------------|
+      |VECTOR_____|INDEX______|QTY_X_VECT_|TROOPNAME__|DELAY_DROP_|DELAYCHANGE|SLEEPAFTER_|___________|___________|___________|___________|___________|
+DROP  |E          |1          |1          |SiegeB     |200-300    |0          |0          |           |           |           |           |           |
+DROP  |E          |1          |1          |BattleB    |200-300    |0          |0          |           |           |           |           |           |
+DROP  |E          |1          |1          |BattleD    |200-300    |0          |0          |           |           |           |           |           |
+DROP  |E          |1          |1          |LogL       |200-300    |0          |0          |           |           |           |           |           |
+DROP  |E          |1          |1          |FlameF     |200-300    |0          |0          |           |           |           |           |           |
+DROP  |E          |1          |1          |WallW      |200-300    |0          |0          |           |           |           |           |           |
+DROP  |E          |1          |1          |LogL       |200-300    |0          |0          |           |           |           |           |           |
+DROP  |E          |1          |1          |StoneS     |200-300    |0          |0          |           |           |           |           |           |
+DROP  |E          |1          |1          |EDrag      |200-300    |0          |0          |           |           |           |           |           |
+DROP  |E          |1          |1          |EDrag      |200-300    |0          |0          |           |           |           |           |           |
+DROP  |E          |1          |1          |EDrag      |200-300    |0          |0          |           |           |           |           |           |
+DROP  |E          |1          |1          |EDrag      |200-300    |0          |0          |           |           |           |           |           |
+DROP  |E          |1          |1          |EDrag      |200-300    |0          |0          |           |           |           |           |           |
+DROP  |A          |1          |1          |RSpell     |200-300    |0          |600        |           |           |           |           |           |
+DROP  |B          |1          |1          |RSpell     |200-300    |0          |0          |           |           |           |           |           |
+DROP  |B          |100        |100        |HSpell     |200-300    |0          |0          |           |           |           |           |           |
+DROP  |B          |100        |100        |HaSpell    |200-300    |0          |0          |           |           |           |           |           |
+DROP  |B          |100        |100        |ISpell     |200-300    |0          |0          |           |           |           |           |           |
+DROP  |B          |100        |100        |ReSpell    |200-300    |0          |0          |           |           |           |           |           |
+DROP  |E          |1          |1          |Champion   |200-300    |0          |0          |           |           |           |           |           |
+DROP  |E          |1          |1          |Queen      |200-300    |0          |0          |           |           |           |           |           |
+      |--------------------------------------------THIRD WAVE - REMAIN TROOPS-------------------------------------------------------------------------|
+      |VECTOR_____|INDEX______|QTY_X_VECT_|TROOPNAME__|DELAY_DROP_|DELAYCHANGE|SLEEPAFTER_|___________|___________|___________|___________|___________|
+DROP  |M-V-X-C-Y  |100        |100        |LSpell     |0          |50-70      |150-170    |           |           |           |           |           |
+DROP  |M-V-X-C-Y  |100        |100        |JSpell     |0          |50-70      |150-170    |           |           |           |           |           |
+DROP  |M-V-X-C-Y  |100        |100        |FSpell     |0          |50-70      |150-170    |           |           |           |           |           |
+DROP  |M-V-X-C-Y  |100        |100        |PSpell     |0          |50-70      |150-170    |           |           |           |           |           |
+DROP  |M-V-X-C-Y  |100        |100        |ESpell     |0          |50-70      |150-170    |           |           |           |           |           |
+DROP  |M-V-X-C-Y  |100        |100        |LSpell     |0          |50-70      |150-170    |           |           |           |           |           |
+DROP  |M-V-X-C-Y  |100        |100        |SkSpell    |0          |50-70      |150-170    |           |           |           |           |           |
+DROP  |M-V-X-C-Y  |100        |100        |BtSpell    |0          |50-70      |150-170    |           |           |           |           |           |
+DROP  |E          |100        |100        |REMAIN     |0          |0          |0          |           |           |           |           |           |
+|--------------------------------------build by f4gn3r@duck.com  for COC lovers-----------------------------------------------------------------------|
